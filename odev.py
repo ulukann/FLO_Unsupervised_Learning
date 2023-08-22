@@ -13,7 +13,6 @@ from scipy.cluster.hierarchy import dendrogram
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import AgglomerativeClustering
 
-
 warnings.simplefilter(action='ignore', category=FutureWarning)
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 500)
